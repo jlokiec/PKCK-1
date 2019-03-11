@@ -10,6 +10,10 @@ musicians, genres, languages, distributors {
     display: none;
 }
 
+authors:first-child::before{
+    content: 'Autorzy: ';
+}
+
 authors {
     color: #ffffff;
     font-family: 'Lato', sans-serif;
@@ -23,12 +27,8 @@ authors {
     right: 16px;
 }
 
-author::before {
-    content: "Autor: ";
-}
-
 modificationDate::before {
-    content: "Data modifikacji: ";
+    content: "Data modyfikacji: ";
 }
 
 modificationDate {
@@ -54,11 +54,6 @@ description {
     font-size: 36px;
     font-weight: 400;
     line-height: 44px;
-
-}
-
-cd {
-    display: block;
 }
 
 catalog {
@@ -66,6 +61,100 @@ catalog {
     margin: 20px;
     list-style-type: none;
     width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+cd {
+    display: block;
+    background: gray;
+}
+
+/*print musicians*/
+cd[musicianId="LGAGA"]::before {
+    content: "Lady Gaga";
+}
+
+cd[musicianId="BCOOPER"]::before {
+    content: "Bradley Cooper";
+}
+
+cd[musicianId="QUEEN"]::before {
+    content: "Queen";
+}
+
+cd[musicianId="CPLAY"]::before {
+    content: "Coldplay";
+}
+
+cd[musicianId="ARIZONA"]::before {
+    content: "A R I Z O N A";
+}
+
+cd[musicianId="BJOVI"]::before {
+    content: "Bon Jovi";
+}
+
+cd[musicianId="PFLOYD"]::before {
+    content: "Pink Floyd";
+}
+
+cd[musicianId="ACDC"]::before {
+    content: "AC/DC";
+}
+
+cd[musicianId="DPODSIADLO"]::before {
+    content: "Dawid Podsiadło";
+}
+
+cd[musicianId="KORTEZ"]::before {
+    content: "Kortez";
+}
+
+cd[musicianId="PROBLEM"]::before {
+    content: "PRO8L3M";
+}
+
+cd[musicianId="DZAWIALOW"]::before {
+    content: "Daria Zawiałow";
+}
+
+cd[musicianId="PDOMAGALA"]::before {
+    content: "Paweł Domagała";
+}
+
+cd[musicianId="TACO"]::before {
+    content: "Taco Hemingway";
+}
+
+cd[musicianId="KINGS"]::before {
+    content: "Kings of Leon";
+}
+
+cd[musicianId="SLAWOMIR"]::before {
+    content: "Sławomir";
+}
+
+cd[musicianId="WILKI"]::before {
+    content: "Wilki";
+}
+
+cd[musicianId="GITARY"]::before {
+    content: "Elektryczne Gitary";
+}
+
+cd[musicianId="KBEDNAREK"]::before {
+    content: "Kamil Bednarek";
+}
+
+cd[musicianId="STRACHY"]::before {
+    content: "Strachy na Lachy";
+}
+
+/*print genre and distributor*/
+cd::after {
+    content: "Gatunek: " attr(genreId) "\a" "Dystrybutor: " attr(distributorId);
+    white-space: pre-wrap;
 }
 
 title {
@@ -76,12 +165,13 @@ title {
 coverImg {
     border-radius: 8px;
     float: left;
-    width: 20%;
+    width: 30%;
     height: auto;
 }
 
-coverImg[src="img/a-star-is-born.jpg"] {
-    content: url("img/a-star-is-born.jpg");
+/*display CD cover*/
+coverImg[src="img/the-dark-side-of-the-moon.jpg"] {
+    content: url("img/the-dark-side-of-the-moon.jpg");
 }
 
 coverImg[src="img/the-greatest-hits-i-ii-iii.jpg"] {
@@ -180,41 +270,32 @@ coverImg[src="img/przechodzien-o-wschodzie.jpg"] {
     content: url("img/przechodzien-o-wschodzie.jpg");
 }
 
-
-musician::before {
-    content: "Musician: ";
-    display: block;
-    margin-left: 20px;
-}
-
-genre::before {
-    content: "Genre: ";
-    display: block;
+premiereDate, numberOfCds, price {
+    display: list-item;
 }
 
 premiereDate::before {
-    content: "Premiere date: ";
-    display: block;
-}
-
-language::before {
-    content: "Language: ";
-    display: block;
+    content: "Data premiery: ";
 }
 
 numberOfCds::before {
-    content: "Number Of Cds";
-    display: block;
+    content: "Liczba płyt: ";
 }
 
-distributor::before {
-    contain: "Distributor: ";
-    display: block;
+genre::before {
+    content: "Gatunek: ";
+}
+
+language::before {
+    content: "Język: ";
 }
 
 price::before {
-    content: "Price: ";
-    display: block;
+    content: "Cena: ";
+}
+
+price::after {
+    content: " " attr(currency);
 }
 
 cd {
@@ -223,7 +304,6 @@ cd {
 }
 
 cd:hover {
-
     box-shadow: inset 0 0 7.5em rgba(56, 27, 15, 0.685);
     opacity: 1;
     margin: auto -0.5em;
