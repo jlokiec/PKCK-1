@@ -21,6 +21,7 @@
     <catalog>
         <cd>
             <title>A Star is Born</title>
+            <coverImg>img/a-star-is-born</coverImg>
             <musician>Lady Gaga</musician>
             <musician>Bradley Cooper</musician>
             <genre>Muzyka filmowa</genre>
@@ -31,7 +32,8 @@
             <price>39,99</price>
         </cd>
         <cd>
-            <title>The Greatest Hits I, II & III</title>
+            <title>The Greatest Hits I, II &amp; III</title>
+            <coverImg>img/the-greatest-hits-i-ii-iii</coverImg>
             <musician>Queen</musician>
             <genre>Rock</genre>
             <premiereDate>24.06.2011</premiereDate>
@@ -39,6 +41,17 @@
             <numberOfCds>3</numberOfCds>
             <distributor>Universal Music Polska</distributor>
             <price>59,99</price>
+        </cd>
+        <cd>
+            <title>A Head Full Of Dreams</title>
+            <coverImg>img/a-head-full-of-dreams.jpg</coverImg>
+            <musician>Coldplay</musician>
+            <genre>Alternatywna</genre>
+            <premiereDate>04.12.2015</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Warner Music Poland</distributor>
+            <price>46,99</price>
         </cd>
     </catalog>
 </document>
