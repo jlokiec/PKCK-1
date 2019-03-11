@@ -1,127 +1,230 @@
 document {
-    background: url("img/background.jpg") no-repeat center center fixed; 
+    background: url("img/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-authors  {
-    color: #ffffff; font-family: 'Lato', sans-serif; font-size: 20px; font-weight: 300; line-height: 58px;
+musicians, genres, languages, distributors {
+    display: none;
+}
+
+authors {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 58px;
     display: block;
     text-align: center;
     position: fixed;
     bottom: 15px;
     right: 16px;
 }
+
 author::before {
     content: "Autor: ";
 }
+
 modificationDate::before {
     content: "Data modifikacji: ";
 }
-modificationDate {  
-    color: #ffffff; font-family: 'Lato', sans-serif; font-size: 10px;  line-height: 58px;
+
+modificationDate {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    line-height: 58px;
     display: block;
     position: fixed;
     bottom: 0px;
     right: 13px;
     font-style: italic;
 }
+
 studentId {
     font-style: italic;
     font-size: 15px;
 }
+
 description {
-    color: #805736; 
+    color: #805736;
     font-family: 'Droid serif', serif;
-    font-size: 36px; 
-    font-weight: 400; 
-    line-height: 44px; 
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
 
 }
-catalog {
-    display: block;
-}
+
 cd {
     display: block;
 }
 
-
 catalog {
+    display: block;
     margin: 20px;
-  }
-   
-  ul {
     list-style-type: none;
     width: 500px;
-  }
-   
- title {
+}
+
+title {
     display: block;
     font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-  }
-  coverImg {
+}
+
+coverImg {
     border-radius: 8px;
     float: left;
     width: 20%;
     height: auto;
-  }
-  coverImg[src="img/a-star-is-born.jpg"] { content: url("img/a-star-is-born.jpg"); }
-  coverImg[src="img/the-greatest-hits-i-ii-iii.jpg"] { content: url("img/the-greatest-hits-i-ii-iii.jpg"); }
-  coverImg[src="img/a-head-full-of-dreams.jpg"] { content: url("img/a-head-full-of-dreams.jpg"); }
- 
-  coverImg[src="img/ghost-stories.jpg"] { content: url("img/ghost-stories.jpg"); }
-  coverImg[src="img/parachutes.jpg"] { content: url("img/parachutes.jpg"); }
-  coverImg[src="img/x-y.jpg"] { content: url("img/x-y.jpg"); }
-  
-  coverImg[src="img/mylo-xyloto.jpg"] { content: url("img/mylo-xyloto.jpg"); }
-  coverImg[src="img/gallery.jpg"] { content: url("img/gallery.jpg"); }
-  coverImg[src="img/this-house-is-not-for-sale.jpg"] { content: url("img/this-house-is-not-for-sale.jpg"); }
+}
 
-  coverImg[src="img/the-wall.jpg"] { content: url("img/the-wall.jpg"); }
-  coverImg[src="img/the-division-bell.jpg"] { content: url("img/the-division-bell.jpg"); }
-  coverImg[src="img/black-ice.jpg"] { content: url("img/black-ice.jpg"); }
+coverImg[src="img/a-star-is-born.jpg"] {
+    content: url("img/a-star-is-born.jpg");
+}
+
+coverImg[src="img/the-greatest-hits-i-ii-iii.jpg"] {
+    content: url("img/the-greatest-hits-i-ii-iii.jpg");
+}
+
+coverImg[src="img/a-head-full-of-dreams.jpg"] {
+    content: url("img/a-head-full-of-dreams.jpg");
+}
+
+coverImg[src="img/ghost-stories.jpg"] {
+    content: url("img/ghost-stories.jpg");
+}
+
+coverImg[src="img/parachutes.jpg"] {
+    content: url("img/parachutes.jpg");
+}
+
+coverImg[src="img/x-y.jpg"] {
+    content: url("img/x-y.jpg");
+}
+
+coverImg[src="img/mylo-xyloto.jpg"] {
+    content: url("img/mylo-xyloto.jpg");
+}
+
+coverImg[src="img/gallery.jpg"] {
+    content: url("img/gallery.jpg");
+}
+
+coverImg[src="img/this-house-is-not-for-sale.jpg"] {
+    content: url("img/this-house-is-not-for-sale.jpg");
+}
+
+coverImg[src="img/the-wall.jpg"] {
+    content: url("img/the-wall.jpg");
+}
+
+coverImg[src="img/the-division-bell.jpg"] {
+    content: url("img/the-division-bell.jpg");
+}
+
+coverImg[src="img/black-ice.jpg"] {
+    content: url("img/black-ice.jpg");
+}
+
+coverImg[src="img/podsiadlo.jpg"] {
+    content: url("img/podsiadlo.jpg");
+}
+
+coverImg[src="img/kortez.jpg"] {
+    content: url("img/kortez.jpg");
+}
+
+coverImg[src="img/widmo.jpg"] {
+    content: url("img/widmo.jpg");
+}
+
+coverImg[src="img/helsinki.jpg"] {
+    content: url("img/helsinki.jpg");
+}
+
+coverImg[src="img/1984.jpg"] {
+    content: url("img/widmo.jpg");
+}
+
+coverImg[src="img/1984.jpg"] {
+    content: url("img/widmo.jpg");
+}
+
+coverImg[src="img/walls.jpg"] {
+    content: url("img/walls.jpg");
+}
+
+coverImg[src="img/cafe-belga.jpg"] {
+    content: url("img/cafe-belga.jpg");
+}
+
+coverImg[src="img/the-greatest-hits-b-iext48699064.jpg"] {
+    content: url("img/the-greatest-hits-b-iext48699064.jpg");
+}
+
+coverImg[src="img/wilki.jpg"] {
+    content: url("img/wilki.jpg");
+}
+
+coverImg[src="img/nic-mnie-nie-rusza.jpg"] {
+    content: url("img/nic-mnie-nie-rusza.jpg");
+}
+
+coverImg[src="img/talizman.jpg"] {
+    content: url("img/talizman.jpg");
+}
+
+coverImg[src="img/przechodzien-o-wschodzie.jpg"] {
+    content: url("img/przechodzien-o-wschodzie.jpg");
+}
 
 
-   
-  musician::before {
+musician::before {
     content: "Musician: ";
     display: block;
     margin-left: 20px;
-  }
-  genre::before{
+}
+
+genre::before {
     content: "Genre: ";
     display: block;
-  }
-  premiereDate::before {
-      content: "Premiere date: ";
-      display: block;
-  }
-  language::before {
+}
+
+premiereDate::before {
+    content: "Premiere date: ";
+    display: block;
+}
+
+language::before {
     content: "Language: ";
     display: block;
 }
+
 numberOfCds::before {
     content: "Number Of Cds";
     display: block;
 }
+
 distributor::before {
     contain: "Distributor: ";
     display: block;
 }
+
 price::before {
     content: "Price: ";
     display: block;
 }
-  cd {
+
+cd {
     padding: 10px;
     overflow: auto;
-  }
-   
-  cd:hover {
+}
+
+cd:hover {
 
     box-shadow: inset 0 0 7.5em rgba(56, 27, 15, 0.685);
     opacity: 1;
     margin: auto -0.5em;
-  }
+}
