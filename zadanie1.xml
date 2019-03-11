@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="zadanie1.css"?>
+<!--<!DOCTYPE bookStore SYSTEM "zadanie1.dtd">-->
+<document>
+    <header>
+        <authors>
+            <author>
+                <name>Maciej</name>
+                <surname>Cierpikowski</surname>
+                <studentId>210153</studentId>
+            </author>
+            <author>
+                <name>Jakub</name>
+                <surname>Łokieć</surname>
+                <studentId>210259</studentId>
+            </author>
+        </authors>
+        <description>Katalog płyt CD z muzyką</description>
+        <modificationDate>11.03.2019</modificationDate>
+    </header>
+    <catalog>
+        <cd>
+            <title>A Star is Born</title>
+            <musician>Lady Gaga</musician>
+            <musician>Bradley Cooper</musician>
+            <genre>Muzyka filmowa</genre>
+            <premiereDate>19.10.2018</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Universal Music Polska</distributor>
+            <price>39,99</price>
+        </cd>
+        <cd>
+            <title>The Greatest Hits I, II & III</title>
+            <musician>Queen</musician>
+            <genre>Rock</genre>
+            <premiereDate>24.06.2011</premiereDate>
+            <language>EN</language>
+            <numberOfCds>3</numberOfCds>
+            <distributor>Universal Music Polska</distributor>
+            <price>59,99</price>
+        </cd>
+    </catalog>
+</document>
