@@ -19,9 +19,11 @@
         <modificationDate>11.03.2019</modificationDate>
     </header>
     <catalog>
+    <ul>
+
         <cd>
             <title>A Star is Born</title>
-            <coverImg>img/a-star-is-born.jpg</coverImg>
+            <img src="img/a-star-is-born.jpg"/>
             <musician>Lady Gaga</musician>
             <musician>Bradley Cooper</musician>
             <genre>Muzyka filmowa</genre>
@@ -274,5 +276,6 @@
             <distributor>MTJ Agencja Artystyczna</distributor>
             <price>27.99</price>
         </cd>
+            </ul>
     </catalog>
 </document>
