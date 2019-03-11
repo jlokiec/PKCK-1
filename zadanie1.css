@@ -13,7 +13,6 @@ authors  {
     position: fixed;
     bottom: 15px;
     right: 16px;
-   
 }
 author::before {
     content: "Autor: ";
@@ -62,16 +61,59 @@ catalog {
     display: block;
     font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
   }
-
-  img{
+  coverImg {
+    border-radius: 8px;
     float: left;
-    margin: 0 15px 0 0;
+    width: 20%;
+    height: auto;
   }
+  coverImg[src="img/a-star-is-born.jpg"] { content: url("img/a-star-is-born.jpg"); }
+  coverImg[src="img/the-greatest-hits-i-ii-iii.jpg"] { content: url("img/the-greatest-hits-i-ii-iii.jpg"); }
+  coverImg[src="img/a-head-full-of-dreams.jpg"] { content: url("img/a-head-full-of-dreams.jpg"); }
+ 
+  coverImg[src="img/ghost-stories.jpg"] { content: url("img/ghost-stories.jpg"); }
+  coverImg[src="img/parachutes.jpg"] { content: url("img/parachutes.jpg"); }
+  coverImg[src="img/x-y.jpg"] { content: url("img/x-y.jpg"); }
+  
+  coverImg[src="img/mylo-xyloto.jpg"] { content: url("img/mylo-xyloto.jpg"); }
+  coverImg[src="img/gallery.jpg"] { content: url("img/gallery.jpg"); }
+  coverImg[src="img/this-house-is-not-for-sale.jpg"] { content: url("img/this-house-is-not-for-sale.jpg"); }
+
+  coverImg[src="img/the-wall.jpg"] { content: url("img/the-wall.jpg"); }
+  coverImg[src="img/the-division-bell.jpg"] { content: url("img/the-division-bell.jpg"); }
+  coverImg[src="img/black-ice.jpg"] { content: url("img/black-ice.jpg"); }
+
+
    
-  cd p {
-    font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  musician::before {
+    content: "Musician: ";
+    display: block;
+    margin-left: 20px;
   }
-   
+  genre::before{
+    content: "Genre: ";
+    display: block;
+  }
+  premiereDate::before {
+      content: "Premiere date: ";
+      display: block;
+  }
+  language::before {
+    content: "Language: ";
+    display: block;
+}
+numberOfCds::before {
+    content: "Number Of Cds";
+    display: block;
+}
+distributor::before {
+    contain: "Distributor: ";
+    display: block;
+}
+price::before {
+    content: "Price: ";
+    display: block;
+}
   cd {
     padding: 10px;
     overflow: auto;

@@ -23,7 +23,7 @@
 
         <cd>
             <title>A Star is Born</title>
-            <img src="img/a-star-is-born.jpg"/>
+            <coverImg src="img/a-star-is-born.jpg"/>
             <musician>Lady Gaga</musician>
             <musician>Bradley Cooper</musician>
             <genre>Muzyka filmowa</genre>
@@ -35,7 +35,7 @@
         </cd>
         <cd>
             <title>The Greatest Hits I, II &amp; III</title>
-            <coverImg>img/the-greatest-hits-i-ii-iii.jpg</coverImg>
+            <coverImg src="img/the-greatest-hits-i-ii-iii.jpg"/>
             <musician>Queen</musician>
             <genre>Rock</genre>
             <premiereDate>24.06.2011</premiereDate>
@@ -46,7 +46,7 @@
         </cd>
         <cd>
             <title>A Head Full Of Dreams</title>
-            ,
+            <coverImg src="img/a-head-full-of-dreams.jpg"/>
             <musician>Coldplay</musician>
             <genre>Soft rock</genre>
             <premiereDate>04.12.2015</premiereDate>
@@ -57,7 +57,7 @@
         </cd>
         <cd>
             <title>Ghost Stories</title>
-            <coverImg>img/ghost-stories.jpg</coverImg>
+             <coverImg src="img/ghost-stories.jpg"/>
             <musician>Coldplay</musician>
             <genre>Soft rock</genre>
             <premiereDate>19.05.2014</premiereDate>
@@ -68,7 +68,7 @@
         </cd>
         <cd>
             <title>Parachutes</title>
-            <coverImg>img/parachutes.jpg</coverImg>
+            <coverImg src="img/parachutes.jpg"/>
             <musician>Coldplay</musician>
             <genre>Soft rock</genre>
             <premiereDate>10.07.2000</premiereDate>
@@ -79,7 +79,7 @@
         </cd>
         <cd>
             <title>X &amp; Y</title>
-            <coverImg>img/x-y.jpg</coverImg>
+            <coverImg src="img/x-y.jpg"/>
             <musician>Coldplay</musician>
             <genre>Soft rock</genre>
             <premiereDate>06.06.2005</premiereDate>
@@ -90,7 +90,7 @@
         </cd>
         <cd>
             <title>Mylo Xyloto</title>
-            <coverImg>img/mylo-xyloto.jpg</coverImg>
+            <coverImg src="img/mylo-xyloto.jpg"/>
             <musician>Coldplay</musician>
             <genre>Soft rock</genre>
             <premiereDate>24.10.2011</premiereDate>
@@ -101,7 +101,7 @@
         </cd>
         <cd>
             <title>Gallery</title>
-            <coverImg>img/gallery.jpg</coverImg>
+            <coverImg src="img/gallery.jpg"/>
             <musician>A R I Z O N A</musician>
             <genre>Rock alternatywny</genre>
             <premiereDate>19.05.2017</premiereDate>
@@ -113,7 +113,7 @@
         </cd>
         <cd>
             <title>This House Is Not For Sale</title>
-            <coverImg>img/this-house-is-not-for-sale.jpg</coverImg>
+            <coverImg src="img/this-house-is-not-for-sale.jpg"/>
             <musician>Bon Jovi</musician>
             <genre>Rock</genre>
             <premiereDate>04.11.2016</premiereDate>
@@ -124,7 +124,7 @@
         </cd>
         <cd>
             <title>The Wall</title>
-            <coverImg>img/the-wall.jpg</coverImg>
+            <coverImg src="img/the-wall.jpg"/>
             <musician>Pink Floyd</musician>
             <genre>Rock</genre>
             <premiereDate>26.09.2011</premiereDate>
@@ -135,7 +135,7 @@
         </cd>
         <cd>
             <title>The Division Bell</title>
-            <coverImg>img/the-division-bell.jpg</coverImg>
+            <coverImg src="img/the-division-bell.jpg"/>
             <musician>Pink Floyd</musician>
             <genre>Rock</genre>
             <premiereDate>26.09.2011</premiereDate>
@@ -146,7 +146,7 @@
         </cd>
         <cd>
             <title>Black Ice</title>
-            <coverImg>img/black-ice.jpg</coverImg>
+            <coverImg src="img/black-ice.jpg"/>
             <musician>AC/DC</musician>
             <genre>Rock</genre>
             <premiereDate>20.10.2008</premiereDate>
@@ -157,6 +157,7 @@
         </cd>
            <cd>
             <title>Małomiasteczkowy</title>
+            <coverImg src="img/podsiadlo.jpg"/>
             <musician>Podsiadło Dawid</musician>
             <genre>Pop &amp; Rock</genre>
             <premiereDate>19.10.2018</premiereDate>
@@ -167,6 +168,7 @@
         </cd>
         <cd>
             <title>Mini dom</title>
+            <coverImg src="img/kortez.jpg"/>
             <musician>Kortez</musician>
             <genre>Pop &amp; Rock</genre>
             <premiereDate>21.09.2018</premiereDate>
@@ -177,6 +179,7 @@
         </cd>        
         <cd>
             <title>Widmo</title>
+            <coverImg src="img/widmo.jpg"/>
             <musician>PRO8L3M</musician>
             <genre> Rap &amp; Hip Hop</genre>
             <premiereDate>03.01.2019</premiereDate>
@@ -187,6 +190,7 @@
         </cd>
         <cd>
             <title>Helsinki</title>
+            <coverImg src="img/helsinki.jpg"/>
             <musician>Zawiałow Daria</musician>
             <genre> Pop &amp; Rock</genre>
             <premiereDate>08.03.2019</premiereDate>
@@ -197,6 +201,7 @@
         </cd>
          <cd>
             <title>1984</title>
+            <coverImg src="img/1984.jpg"/>
             <musician>Domagała Paweł</musician>
             <genre> Pop &amp; Rock</genre>
             <premiereDate>16.11.2018</premiereDate>
@@ -207,6 +212,7 @@
         </cd>
         <cd>
             <title>Męskie Granie 2018</title>
+            <coverImg src="img/meskie-granie-2018.jpg"/>
             <musician>Various Artists</musician>
             <genre> Pop &amp; Rock</genre>
             <premiereDate>16.11.2018</premiereDate>
@@ -217,6 +223,7 @@
         </cd>
         <cd>
             <title>CAFÉ BELGA</title>
+            <coverImg src="img/cafe-belga.jpg"/>
             <musician>Taco Hemingway</musician>
             <genre> Rap &amp; Hip hop</genre>
             <premiereDate>13.07.2018</premiereDate>
@@ -227,6 +234,7 @@
         </cd>
         <cd>
             <title>The Greatest Hits</title>
+            <coverImg src="img/the-greatest-hits-b-iext48699064.jpg"/>
             <musician>Sławomir</musician>
             <genre> Disco Polo</genre>
             <premiereDate>10.04.2018</premiereDate>
@@ -237,6 +245,7 @@
         </cd>
         <cd>
             <title>Ulotne</title>
+            <coverImg src="img/ulotne-edycja-specjalna.jpg"/>
             <musician>Jopek Anna Maria</musician>
             <musician>Marsalis Branford</musician>
             <genre>Jazz</genre>
@@ -248,6 +257,7 @@
         </cd>
         <cd>
             <title>Smooth Jazz Cafe. Volume 18</title>
+            <coverImg src="img/smooth-jazz-cafe-volume-18-b-iext53437905.jpg"/>
             <musician>Various Artists</musician>
             <genre>Jazz</genre>
             <premiereDate>26.10.2018</premiereDate>
@@ -258,6 +268,7 @@
         </cd>
         <cd>
             <title>Talizman </title>
+            <coverImg src="img/talizman.jpg"/>
             <musician>Bednarek Kamil</musician>
             <genre>Reggae</genre>
             <premiereDate>01.12.2017</premiereDate>
@@ -268,6 +279,7 @@
         </cd>
         <cd>
             <title>Szanty. Volume 1</title>
+            <coverImg src="img/szanty-volume.jpg"/>
             <musician>Various Artists</musician>
             <genre>Szanty</genre>
             <premiereDate>25.03.2011</premiereDate>
