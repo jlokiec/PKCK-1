@@ -5,13 +5,12 @@ document {
     -o-background-size: cover;
     background-size: cover;
 }
-header {
-}
+
 authors  {
     color: #ffffff; font-family: 'Lato', sans-serif; font-size: 20px; font-weight: 300; line-height: 58px;
     display: block;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 15px;
     right: 16px;
    
@@ -25,7 +24,7 @@ modificationDate::before {
 modificationDate {  
     color: #ffffff; font-family: 'Lato', sans-serif; font-size: 10px;  line-height: 58px;
     display: block;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     right: 13px;
     font-style: italic;
@@ -80,7 +79,7 @@ catalog {
    
   cd:hover {
 
-    box-shadow: inset 0 0 7.5em rgb(156, 151, 151);
+    box-shadow: inset 0 0 7.5em rgba(56, 27, 15, 0.685);
     opacity: 1;
     margin: auto -0.5em;
   }
