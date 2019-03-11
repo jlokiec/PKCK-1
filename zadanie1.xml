@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <?xml-stylesheet type="text/css" href="zadanie1.css"?>
-<!--<!DOCTYPE bookStore SYSTEM "zadanie1.dtd">-->
+<!--<!DOCTYPE document SYSTEM "zadanie1.dtd">-->
 <document>
     <header>
         <authors>
@@ -21,7 +21,7 @@
     <catalog>
         <cd>
             <title>A Star is Born</title>
-            <coverImg>img/a-star-is-born</coverImg>
+            <coverImg>img/a-star-is-born.jpg</coverImg>
             <musician>Lady Gaga</musician>
             <musician>Bradley Cooper</musician>
             <genre>Muzyka filmowa</genre>
@@ -29,29 +29,129 @@
             <language>EN</language>
             <numberOfCds>1</numberOfCds>
             <distributor>Universal Music Polska</distributor>
-            <price>39,99</price>
+            <price>39.99</price>
         </cd>
         <cd>
             <title>The Greatest Hits I, II &amp; III</title>
-            <coverImg>img/the-greatest-hits-i-ii-iii</coverImg>
+            <coverImg>img/the-greatest-hits-i-ii-iii.jpg</coverImg>
             <musician>Queen</musician>
             <genre>Rock</genre>
             <premiereDate>24.06.2011</premiereDate>
             <language>EN</language>
             <numberOfCds>3</numberOfCds>
             <distributor>Universal Music Polska</distributor>
-            <price>59,99</price>
+            <price>59.99</price>
         </cd>
         <cd>
             <title>A Head Full Of Dreams</title>
             <coverImg>img/a-head-full-of-dreams.jpg</coverImg>
             <musician>Coldplay</musician>
-            <genre>Alternatywna</genre>
+            <genre>Soft rock</genre>
             <premiereDate>04.12.2015</premiereDate>
             <language>EN</language>
             <numberOfCds>1</numberOfCds>
             <distributor>Warner Music Poland</distributor>
-            <price>46,99</price>
+            <price>46.99</price>
+        </cd>
+        <cd>
+            <title>Ghost Stories</title>
+            <coverImg>img/ghost-stories.jpg</coverImg>
+            <musician>Coldplay</musician>
+            <genre>Soft rock</genre>
+            <premiereDate>19.05.2014</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Warner Music Poland</distributor>
+            <price>34.99</price>
+        </cd>
+        <cd>
+            <title>Parachutes</title>
+            <coverImg>img/parachutes.jpg</coverImg>
+            <musician>Coldplay</musician>
+            <genre>Soft rock</genre>
+            <premiereDate>10.07.2000</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Warner Music Poland</distributor>
+            <price>24.99</price>
+        </cd>
+        <cd>
+            <title>X &amp; Y</title>
+            <coverImg>img/x-y.jpg</coverImg>
+            <musician>Coldplay</musician>
+            <genre>Soft rock</genre>
+            <premiereDate>06.06.2005</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Warner Music Poland</distributor>
+            <price>21.99</price>
+        </cd>
+        <cd>
+            <title>Mylo Xyloto</title>
+            <coverImg>img/mylo-xyloto.jpg</coverImg>
+            <musician>Coldplay</musician>
+            <genre>Soft rock</genre>
+            <premiereDate>24.10.2011</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Warner Music Poland</distributor>
+            <price>30.99</price>
+        </cd>
+        <cd>
+            <title>Gallery</title>
+            <coverImg>img/gallery.jpg</coverImg>
+            <musician>A R I Z O N A</musician>
+            <genre>Rock alternatywny</genre>
+            <premiereDate>19.05.2017</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Atlantic Records</distributor>
+            <!--price in $-->
+            <price>7.99</price>
+        </cd>
+        <cd>
+            <title>This House Is Not For Sale</title>
+            <coverImg>img/this-house-is-not-for-sale.jpg</coverImg>
+            <musician>Bon Jovi</musician>
+            <genre>Rock</genre>
+            <premiereDate>04.11.2016</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Universal Music Polska</distributor>
+            <price>39.99</price>
+        </cd>
+        <cd>
+            <title>The Wall</title>
+            <coverImg>img/the-wall.jpg</coverImg>
+            <musician>Pink Floyd</musician>
+            <genre>Rock</genre>
+            <premiereDate>26.09.2011</premiereDate>
+            <language>EN</language>
+            <numberOfCds>2</numberOfCds>
+            <distributor>Warner Music Poland</distributor>
+            <price>40.99</price>
+        </cd>
+        <cd>
+            <title>The Division Bell</title>
+            <coverImg>img/the-division-bell.jpg</coverImg>
+            <musician>Pink Floyd</musician>
+            <genre>Rock</genre>
+            <premiereDate>26.09.2011</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Warner Music Poland</distributor>
+            <price>31.99</price>
+        </cd>
+        <cd>
+            <title>Black Ice</title>
+            <coverImg>img/black-ice.jpg</coverImg>
+            <musician>AC/DC</musician>
+            <genre>Rock</genre>
+            <premiereDate>20.10.2008</premiereDate>
+            <language>EN</language>
+            <numberOfCds>1</numberOfCds>
+            <distributor>Sony Music Entertainment</distributor>
+            <price>79.99</price>
         </cd>
     </catalog>
 </document>
