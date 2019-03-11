@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <?xml-stylesheet type="text/css" href="zadanie1.css"?>
-<!--<!DOCTYPE document SYSTEM "zadanie1.dtd">-->
+<!DOCTYPE document SYSTEM "zadanie1.dtd">
 <document>
     <header>
         <authors>
@@ -18,276 +18,273 @@
         <description>Katalog płyt CD z muzyką</description>
         <modificationDate>11.03.2019</modificationDate>
     </header>
-    <catalog>
-    <ul>
 
-        <cd>
+    <musicians>
+        <musician musicianId="LGAGA">
+            <name>Lady Gaga</name>
+        </musician>
+        <musician musicianId="BCOOPER">
+            <name>Bradley</name>
+            <surname>Cooper</surname>
+        </musician>
+        <musician musicianId="QUEEN">
+            <name>Queen</name>
+        </musician>
+        <musician musicianId="CPLAY">
+            <name>Coldplay</name>
+        </musician>
+        <musician musicianId="ARIZONA">
+            <name>A R I Z O N A</name>
+        </musician>
+        <musician musicianId="BJOVI">
+            <name>Bon Jovi</name>
+        </musician>
+        <musician musicianId="PFLOYD">
+            <name>Pink Floyd</name>
+        </musician>
+        <musician musicianId="ACDC">
+            <name>AC/DC</name>
+        </musician>
+        <musician musicianId="DPODSIADLO">
+            <name>Dawid</name>
+            <surname>Podsiadło</surname>
+        </musician>
+        <musician musicianId="KORTEZ">
+            <name>Kortez</name>
+        </musician>
+        <musician musicianId="PROBLEM">
+            <name>PRO8L3M</name>
+        </musician>
+        <musician musicianId="DZAWIALOW">
+            <name>Daria</name>
+            <surname>Zawiałow</surname>
+        </musician>
+        <musician musicianId="PDOMAGALA">
+            <name>Paweł</name>
+            <surname>Domagała</surname>
+        </musician>
+        <musician musicianId="TACO">
+            <name>Taco Hemingway</name>
+        </musician>
+        <musician musicianId="KINGS">
+            <name>Kings of Leon</name>
+        </musician>
+        <musician musicianId="SLAWOMIR">
+            <name>Sławomir</name>
+        </musician>
+        <musician musicianId="WILKI">
+            <name>Wilki</name>
+        </musician>
+        <musician musicianId="GITARY">
+            <name>Elektryczne Gitary</name>
+        </musician>
+        <musician musicianId="KBEDNAREK">
+            <name>Kamil</name>
+            <surname>Bednarek</surname>
+        </musician>
+        <musician musicianId="STRACHY">
+            <name>Strachy na Lachy</name>
+        </musician>
+    </musicians>
+
+    <genres>
+        <genre genreId="FILMOWA">Muzyka filmowa</genre>
+        <genre genreId="ROCK">Rock</genre>
+        <genre genreId="SROCK">Soft rock</genre>
+        <genre genreId="AROCK">Rock alternatywny</genre>
+        <genre genreId="PROCK">Rock progresywny</genre>
+        <genre genreId="HROCK">Hard rock</genre>
+        <genre genreId="POP">Pop</genre>
+        <genre genreId="RAP">Rap</genre>
+        <genre genreId="DPOLO">Disco polo</genre>
+        <genre genreId="REG">Reggae</genre>
+    </genres>
+
+    <languages>
+        <language languageId="PL">polski</language>
+        <language languageId="EN">angielski</language>
+    </languages>
+
+    <distributors>
+        <distributor distributorId="UMP">Universal Music Polska</distributor>
+        <distributor distributorId="WMP">Warner Music Poland</distributor>
+        <distributor distributorId="AR">Atlantic Records</distributor>
+        <distributor distributorId="SME">Sony Music Entertainment</distributor>
+        <distributor distributorId="FKO">Firma Księgarska Olesiejuk</distributor>
+        <distributor distributorId="AGO">Agora S.A.</distributor>
+        <distributor distributorId="MYS">Mystic Production</distributor>
+        <distributor distributorId="ASF">Asfalt Distro</distributor>
+        <distributor distributorId="EMU">e-Muzyka</distributor>
+    </distributors>
+
+    <catalog>
+        <cd musicianId="LGAGA BCOOPER" genreId="FILMOWA" languageId="EN" distributorId="UMP">
             <title>A Star is Born</title>
             <coverImg src="img/a-star-is-born.jpg"/>
-            <musician>Lady Gaga</musician>
-            <musician>Bradley Cooper</musician>
-            <genre>Muzyka filmowa</genre>
             <premiereDate>19.10.2018</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Universal Music Polska</distributor>
             <price>39.99</price>
         </cd>
-        <cd>
+        <cd musicianId="QUEEN" genreId="ROCK" languageId="EN" distributorId="UMP">
             <title>The Greatest Hits I, II &amp; III</title>
             <coverImg src="img/the-greatest-hits-i-ii-iii.jpg"/>
-            <musician>Queen</musician>
-            <genre>Rock</genre>
             <premiereDate>24.06.2011</premiereDate>
-            <language>EN</language>
             <numberOfCds>3</numberOfCds>
-            <distributor>Universal Music Polska</distributor>
             <price>59.99</price>
         </cd>
-        <cd>
+        <cd musicianId="CPLAY" genreId="SROCK" languageId="EN" distributorId="WMP">
             <title>A Head Full Of Dreams</title>
             <coverImg src="img/a-head-full-of-dreams.jpg"/>
-            <musician>Coldplay</musician>
-            <genre>Soft rock</genre>
             <premiereDate>04.12.2015</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Warner Music Poland</distributor>
             <price>46.99</price>
         </cd>
-        <cd>
+        <cd musicianId="CPLAY" genreId="SROCK" languageId="EN" distributorId="WMP">
             <title>Ghost Stories</title>
-             <coverImg src="img/ghost-stories.jpg"/>
-            <musician>Coldplay</musician>
-            <genre>Soft rock</genre>
+            <coverImg src="img/ghost-stories.jpg"/>
             <premiereDate>19.05.2014</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Warner Music Poland</distributor>
             <price>34.99</price>
         </cd>
-        <cd>
+        <cd musicianId="CPLAY" genreId="SROCK" languageId="EN" distributorId="WMP">
             <title>Parachutes</title>
             <coverImg src="img/parachutes.jpg"/>
-            <musician>Coldplay</musician>
-            <genre>Soft rock</genre>
             <premiereDate>10.07.2000</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Warner Music Poland</distributor>
             <price>24.99</price>
         </cd>
-        <cd>
+        <cd musicianId="CPLAY" genreId="SROCK" languageId="EN" distributorId="WMP">
             <title>X &amp; Y</title>
             <coverImg src="img/x-y.jpg"/>
-            <musician>Coldplay</musician>
-            <genre>Soft rock</genre>
             <premiereDate>06.06.2005</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Warner Music Poland</distributor>
             <price>21.99</price>
         </cd>
-        <cd>
+        <cd musicianId="CPLAY" genreId="SROCK" languageId="EN" distributorId="WMP">
             <title>Mylo Xyloto</title>
             <coverImg src="img/mylo-xyloto.jpg"/>
-            <musician>Coldplay</musician>
-            <genre>Soft rock</genre>
             <premiereDate>24.10.2011</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Warner Music Poland</distributor>
             <price>30.99</price>
         </cd>
-        <cd>
+        <cd musicianId="ARIZONA" genreId="AROCK" languageId="EN" distributorId="AR">
             <title>Gallery</title>
             <coverImg src="img/gallery.jpg"/>
-            <musician>A R I Z O N A</musician>
-            <genre>Rock alternatywny</genre>
             <premiereDate>19.05.2017</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Atlantic Records</distributor>
-            <!--price in $-->
-            <price>7.99</price>
+            <price currency="USD">7.99</price>
         </cd>
-        <cd>
+        <cd musicianId="BJOVI" genreId="ROCK" languageId="EN" distributorId="UMP">
             <title>This House Is Not For Sale</title>
             <coverImg src="img/this-house-is-not-for-sale.jpg"/>
-            <musician>Bon Jovi</musician>
-            <genre>Rock</genre>
             <premiereDate>04.11.2016</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Universal Music Polska</distributor>
             <price>39.99</price>
         </cd>
-        <cd>
+        <cd musicianId="PFLOYD" genreId="PROCK" languageId="EN" distributorId="WMP">
             <title>The Wall</title>
             <coverImg src="img/the-wall.jpg"/>
-            <musician>Pink Floyd</musician>
-            <genre>Rock</genre>
             <premiereDate>26.09.2011</premiereDate>
-            <language>EN</language>
             <numberOfCds>2</numberOfCds>
-            <distributor>Warner Music Poland</distributor>
             <price>40.99</price>
         </cd>
-        <cd>
+        <cd musicianId="PFLOYD" genreId="PROCK" languageId="EN" distributorId="WMP">
             <title>The Division Bell</title>
             <coverImg src="img/the-division-bell.jpg"/>
-            <musician>Pink Floyd</musician>
-            <genre>Rock</genre>
             <premiereDate>26.09.2011</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Warner Music Poland</distributor>
             <price>31.99</price>
         </cd>
-        <cd>
+        <cd musicianId="ACDC" genreId="HROCK" languageId="EN" distributorId="SME">
             <title>Black Ice</title>
             <coverImg src="img/black-ice.jpg"/>
-            <musician>AC/DC</musician>
-            <genre>Rock</genre>
             <premiereDate>20.10.2008</premiereDate>
-            <language>EN</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Sony Music Entertainment</distributor>
             <price>79.99</price>
         </cd>
-           <cd>
+        <cd musicianId="DPODSIADLO" genreId="POP" languageId="PL" distributorId="SME">
             <title>Małomiasteczkowy</title>
             <coverImg src="img/podsiadlo.jpg"/>
-            <musician>Podsiadło Dawid</musician>
-            <genre>Pop &amp; Rock</genre>
             <premiereDate>19.10.2018</premiereDate>
-            <language>PL</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Sony Music Entertainment</distributor>
             <price>36.99</price>
         </cd>
-        <cd>
+        <cd musicianId="KORTEZ" genreId="POP" languageId="PL" distributorId="FKO">
             <title>Mini dom</title>
             <coverImg src="img/kortez.jpg"/>
-            <musician>Kortez</musician>
-            <genre>Pop &amp; Rock</genre>
             <premiereDate>21.09.2018</premiereDate>
-            <language>PL</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Firma Księgarska Olesiejuk</distributor>
             <price>28.99</price>
-        </cd>        
-        <cd>
+        </cd>
+        <cd musicianId="PROBLEM" genreId="RAP" languageId="PL" distributorId="AGO">
             <title>Widmo</title>
             <coverImg src="img/widmo.jpg"/>
-            <musician>PRO8L3M</musician>
-            <genre> Rap &amp; Hip Hop</genre>
             <premiereDate>03.01.2019</premiereDate>
-            <language>PL</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Agora S.A.</distributor>
             <price>39.99</price>
         </cd>
-        <cd>
+        <cd musicianId="DZAWIALOW" genreId="POP" languageId="PL" distributorId="SME">
             <title>Helsinki</title>
             <coverImg src="img/helsinki.jpg"/>
-            <musician>Zawiałow Daria</musician>
-            <genre> Pop &amp; Rock</genre>
             <premiereDate>08.03.2019</premiereDate>
-            <language>PL</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Sony Music Entertainment</distributor>
             <price>35.99</price>
         </cd>
-         <cd>
+        <cd musicianId="PDOMAGALA" genreId="POP" languageId="PL" distributorId="MYS">
             <title>1984</title>
             <coverImg src="img/1984.jpg"/>
-            <musician>Domagała Paweł</musician>
-            <genre> Pop &amp; Rock</genre>
             <premiereDate>16.11.2018</premiereDate>
-            <language>PL</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Mystic Production</distributor>
             <price>36.99</price>
         </cd>
-        <cd>
-            <title>Męskie Granie 2018</title>
-            <coverImg src="img/meskie-granie-2018.jpg"/>
-            <musician>Various Artists</musician>
-            <genre> Pop &amp; Rock</genre>
-            <premiereDate>16.11.2018</premiereDate>
-            <language>PL</language>
-            <numberOfCds>2</numberOfCds>
-            <distributor>Firma Księgarska Olesiejuk</distributor>
-            <price>39.99</price>
+        <cd musicianId="KINGS" genreId="AROCK" languageId="EN" distributorId="SME">
+            <title>Walls</title>
+            <coverImg src="img/walls.jpg"/>
+            <premiereDate>14.10.2016</premiereDate>
+            <numberOfCds>1</numberOfCds>
+            <price>33.99</price>
         </cd>
-        <cd>
+        <cd musicianId="TACO" genreId="RAP" languageId="PL" distributorId="ASF">
             <title>CAFÉ BELGA</title>
             <coverImg src="img/cafe-belga.jpg"/>
-            <musician>Taco Hemingway</musician>
-            <genre> Rap &amp; Hip hop</genre>
             <premiereDate>13.07.2018</premiereDate>
-            <language>PL</language>
             <numberOfCds>2</numberOfCds>
-            <distributor>Asfalt Distro</distributor>
             <price>45.99</price>
         </cd>
-        <cd>
+        <cd musicianId="SLAWOMIR" genreId="DPOLO" languageId="PL" distributorId="AGO">
             <title>The Greatest Hits</title>
             <coverImg src="img/the-greatest-hits-b-iext48699064.jpg"/>
-            <musician>Sławomir</musician>
-            <genre> Disco Polo</genre>
             <premiereDate>10.04.2018</premiereDate>
-            <language>PL</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>Agora S.A.</distributor>
             <price>22.99</price>
         </cd>
-        <cd>
-            <title>Ulotne</title>
-            <coverImg src="img/ulotne-edycja-specjalna.jpg"/>
-            <musician>Jopek Anna Maria</musician>
-            <musician>Marsalis Branford</musician>
-            <genre>Jazz</genre>
-            <premiereDate>10.05.2018</premiereDate>
-            <language>PL</language>
-            <numberOfCds>2</numberOfCds>
-            <distributor>e-Muzyka</distributor>
-            <price>43.99</price>
-        </cd>
-        <cd>
-            <title>Smooth Jazz Cafe. Volume 18</title>
-            <coverImg src="img/smooth-jazz-cafe-volume-18-b-iext53437905.jpg"/>
-            <musician>Various Artists</musician>
-            <genre>Jazz</genre>
+        <cd musicianId="WILKI" genreId="ROCK" languageId="PL" distributorId="UMP">
+            <title>Wilki</title>
+            <coverImg src="img/wilki.jpg"/>
             <premiereDate>26.10.2018</premiereDate>
-            <language>PL</language>
-            <numberOfCds>2</numberOfCds>
-            <distributor>Universal Music Polska</distributor>
-            <price>19.99</price>
-        </cd>
-        <cd>
-            <title>Talizman </title>
-            <coverImg src="img/talizman.jpg"/>
-            <musician>Bednarek Kamil</musician>
-            <genre>Reggae</genre>
-            <premiereDate>01.12.2017</premiereDate>
-            <language>PL</language>
             <numberOfCds>1</numberOfCds>
-            <distributor>e-Muzyka</distributor>
+            <price>26.99</price>
+        </cd>
+        <cd musicianId="GITARY" genreId="ROCK" languageId="PL" distributorId="UMP">
+            <title>Nic mnie nie rusza</title>
+            <coverImg src="img/nic-mnie-nie-rusza.jpg"/>
+            <premiereDate>20.03.2012</premiereDate>
+            <numberOfCds>1</numberOfCds>
+            <price>26.99</price>
+        </cd>
+        <cd musicianId="KBEDNAREK" genreId="REG" languageId="PL" distributorId="EMU">
+            <title>Talizman</title>
+            <coverImg src="img/talizman.jpg"/>
+            <premiereDate>01.12.2017</premiereDate>
+            <numberOfCds>1</numberOfCds>
             <price>30.99</price>
         </cd>
-        <cd>
-            <title>Szanty. Volume 1</title>
-            <coverImg src="img/szanty-volume.jpg"/>
-            <musician>Various Artists</musician>
-            <genre>Szanty</genre>
-            <premiereDate>25.03.2011</premiereDate>
-            <language>PL</language>
+        <cd musicianId="STRACHY" genreId="AROCK" languageId="PL" distributorId="EMU">
+            <title>Przechodzień o wschodzie</title>
+            <coverImg src="img/przechodzien-o-wschodzie.jpg"/>
+            <premiereDate>29.09.2017</premiereDate>
             <numberOfCds>1</numberOfCds>
-            <distributor>MTJ Agencja Artystyczna</distributor>
-            <price>27.99</price>
+            <price>28.99</price>
         </cd>
-            </ul>
     </catalog>
 </document>

@@ -1,0 +1,41 @@
+<!ELEMENT document (header, musicians, genres, languages, distributors, catalog)>
+        <!ELEMENT header (authors, description, modificationDate)>
+        <!ELEMENT authors (author)+>
+        <!ELEMENT author (name, surname, studentId)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT surname (#PCDATA)>
+        <!ELEMENT studentId (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT modificationDate (#PCDATA)>
+
+        <!ELEMENT musicians (musician)*>
+        <!ELEMENT musician (name, surname?)>
+        <!ATTLIST musician musicianId ID #REQUIRED>
+
+        <!ELEMENT genres (genre)*>
+        <!ELEMENT genre (#PCDATA)>
+        <!ATTLIST genre genreId ID #REQUIRED>
+
+        <!ELEMENT languages (language)*>
+        <!ELEMENT language (#PCDATA)>
+        <!ATTLIST language languageId ID #REQUIRED>
+
+        <!ELEMENT distributors (distributor)*>
+        <!ELEMENT distributor (#PCDATA)>
+        <!ATTLIST distributor distributorId ID #REQUIRED>
+
+        <!ELEMENT catalog (cd)*>
+
+        <!ELEMENT cd (title, coverImg, premiereDate, numberOfCds, price)>
+        <!ATTLIST cd musicianId IDREFS #REQUIRED
+                genreId IDREFS #REQUIRED
+                languageId IDREFS #REQUIRED
+                distributorId IDREFS #REQUIRED>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT coverImg EMPTY>
+        <!ATTLIST coverImg src CDATA #REQUIRED>
+        <!ELEMENT premiereDate (#PCDATA)>
+        <!ELEMENT numberOfCds (#PCDATA)>
+
+        <!ELEMENT price (#PCDATA)>
+        <!ATTLIST price currency (PLN | USD | EUR | CHF) "PLN">
