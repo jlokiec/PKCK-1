@@ -117,173 +117,269 @@
     </distributors>
 
     <catalog>
-        <cd musicianId="PFLOYD" genreId="PROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="PFLOYD"/>
             <title>The Dark Side Of The Moon</title>
             <coverImg src="img/the-dark-side-of-the-moon.jpg"/>
+            <cdGenre genreId="PROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>26.09.2011</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">31.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="QUEEN" genreId="ROCK" languageId="angielski" distributorId="UMP">
+        <cd>
+            <cdMusician musicianId="QUEEN"/>
             <title>The Greatest Hits I, II &amp; III</title>
             <coverImg src="img/the-greatest-hits-i-ii-iii.jpg"/>
+            <cdGenre genreId="ROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>24.06.2011</premiereDate>
             <numberOfCds>3</numberOfCds>
             <price currency="PLN">59.99</price>
+            <cdDistributor distributorId="UMP"/>
         </cd>
-        <cd musicianId="CPLAY" genreId="SROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="CPLAY"/>
             <title>A Head Full Of Dreams</title>
             <coverImg src="img/a-head-full-of-dreams.jpg"/>
+            <cdGenre genreId="SROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>04.12.2015</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">46.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="CPLAY" genreId="SROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="CPLAY"/>
             <title>Ghost Stories</title>
             <coverImg src="img/ghost-stories.jpg"/>
+            <cdGenre genreId="SROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>19.05.2014</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">34.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="CPLAY" genreId="SROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="CPLAY"/>
             <title>Parachutes</title>
             <coverImg src="img/parachutes.jpg"/>
+            <cdGenre genreId="SROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>10.07.2000</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">24.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="CPLAY" genreId="SROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="CPLAY"/>
             <title>X &amp; Y</title>
             <coverImg src="img/x-y.jpg"/>
+            <cdGenre genreId="SROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>06.06.2005</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">21.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="CPLAY" genreId="SROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="CPLAY"/>
             <title>Mylo Xyloto</title>
             <coverImg src="img/mylo-xyloto.jpg"/>
+            <cdGenre genreId="SROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>24.10.2011</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">30.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="ARIZONA" genreId="AROCK" languageId="angielski" distributorId="AR">
+        <cd>
+            <cdMusician musicianId="ARIZONA"/>
             <title>Gallery</title>
             <coverImg src="img/gallery.jpg"/>
+            <cdGenre genreId="AROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>19.05.2017</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="USD">7.99</price>
+            <cdDistributor distributorId="AR"/>
         </cd>
-        <cd musicianId="BJOVI" genreId="ROCK" languageId="angielski" distributorId="UMP">
+        <cd>
+            <cdMusician musicianId="BJOVI"/>
             <title>This House Is Not For Sale</title>
             <coverImg src="img/this-house-is-not-for-sale.jpg"/>
+            <cdGenre genreId="ROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>04.11.2016</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">39.99</price>
+            <cdDistributor distributorId="UMP"/>
         </cd>
-        <cd musicianId="PFLOYD" genreId="PROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="PFLOYD"/>
             <title>The Wall</title>
             <coverImg src="img/the-wall.jpg"/>
+            <cdGenre genreId="PROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>26.09.2011</premiereDate>
             <numberOfCds>2</numberOfCds>
             <price currency="PLN">40.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="PFLOYD" genreId="PROCK" languageId="angielski" distributorId="WMP">
+        <cd>
+            <cdMusician musicianId="PFLOYD"/>
             <title>The Division Bell</title>
             <coverImg src="img/the-division-bell.jpg"/>
+            <cdGenre genreId="PROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>26.09.2011</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">31.99</price>
+            <cdDistributor distributorId="WMP"/>
         </cd>
-        <cd musicianId="ACDC" genreId="HROCK" languageId="angielski" distributorId="SME">
+        <cd>
+            <cdMusician musicianId="ACDC"/>
             <title>Black Ice</title>
             <coverImg src="img/black-ice.jpg"/>
+            <cdGenre genreId="HROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>20.10.2008</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">79.99</price>
+            <cdDistributor distributorId="SME"/>
         </cd>
-        <cd musicianId="DPODSIADLO" genreId="POP" languageId="polski" distributorId="SME">
+        <cd>
+            <cdMusician musicianId="DPODSIADLO"/>
             <title>Małomiasteczkowy</title>
             <coverImg src="img/podsiadlo.jpg"/>
+            <cdGenre genreId="POP"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>19.10.2018</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">36.99</price>
+            <cdDistributor distributorId="SME"/>
         </cd>
-        <cd musicianId="KORTEZ" genreId="POP" languageId="polski" distributorId="FKO">
+        <cd>
+            <cdMusician musicianId="KORTEZ"/>
             <title>Mini dom</title>
             <coverImg src="img/kortez.jpg"/>
+            <cdGenre genreId="POP"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>21.09.2018</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">28.99</price>
+            <cdDistributor distributorId="FKO"/>
         </cd>
-        <cd musicianId="PROBLEM" genreId="RAP" languageId="polski" distributorId="AGO">
+        <cd>
+            <cdMusician musicianId="PROBLEM"/>
             <title>Widmo</title>
             <coverImg src="img/widmo.jpg"/>
+            <cdGenre genreId="RAP"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>03.01.2019</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">39.99</price>
+            <cdDistributor distributorId="AGO"/>
         </cd>
-        <cd musicianId="DZAWIALOW" genreId="POP" languageId="polski" distributorId="SME">
+        <cd>
+            <cdMusician musicianId="DZAWIALOW"/>
             <title>Helsinki</title>
             <coverImg src="img/helsinki.jpg"/>
+            <cdGenre genreId="POP"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>08.03.2019</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">35.99</price>
+            <cdDistributor distributorId="SME"/>
         </cd>
-        <cd musicianId="PDOMAGALA" genreId="POP" languageId="polski" distributorId="MYS">
+        <cd>
+            <cdMusician musicianId="PDOMAGALA"/>
             <title>1984</title>
             <coverImg src="img/1984.jpg"/>
+            <cdGenre genreId="POP"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>16.11.2018</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">36.99</price>
+            <cdDistributor distributorId="MYS"/>
         </cd>
-        <cd musicianId="KINGS" genreId="AROCK" languageId="angielski" distributorId="SME">
+        <cd>
+            <cdMusician musicianId="KINGS"/>
             <title>Walls</title>
             <coverImg src="img/walls.jpg"/>
+            <cdGenre genreId="AROCK"/>
+            <cdLanguage languageId="angielski"/>
             <premiereDate>14.10.2016</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">33.99</price>
+            <cdDistributor distributorId="SME"/>
         </cd>
-        <cd musicianId="TACO" genreId="RAP" languageId="polski" distributorId="ASF">
+        <cd>
+            <cdMusician musicianId="TACO"/>
             <title>CAFÉ BELGA</title>
             <coverImg src="img/cafe-belga.jpg"/>
+            <cdGenre genreId="RAP"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>13.07.2018</premiereDate>
             <numberOfCds>2</numberOfCds>
             <price currency="PLN">45.99</price>
+            <cdDistributor distributorId="ASF"/>
         </cd>
-        <cd musicianId="SLAWOMIR" genreId="DPOLO" languageId="polski" distributorId="AGO">
+        <cd>
+            <cdMusician musicianId="SLAWOMIR"/>
             <title>The Greatest Hits</title>
             <coverImg src="img/the-greatest-hits-b-iext48699064.jpg"/>
+            <cdGenre genreId="DPOLO"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>10.04.2018</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">22.99</price>
+            <cdDistributor distributorId="AGO"/>
         </cd>
-        <cd musicianId="WILKI" genreId="ROCK" languageId="polski" distributorId="UMP">
+        <cd>
+            <cdMusician musicianId="WILKI"/>
             <title>Wilki</title>
             <coverImg src="img/wilki.jpg"/>
+            <cdGenre genreId="ROCK"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>26.10.2018</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">26.99</price>
+            <cdDistributor distributorId="UMP"/>
         </cd>
-        <cd musicianId="GITARY" genreId="ROCK" languageId="polski" distributorId="UMP">
+        <cd>
+            <cdMusician musicianId="GITARY"/>
             <title>Nic mnie nie rusza</title>
             <coverImg src="img/nic-mnie-nie-rusza.jpg"/>
+            <cdGenre genreId="ROCK"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>20.03.2012</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">26.99</price>
+            <cdDistributor distributorId="UMP"/>
         </cd>
-        <cd musicianId="KBEDNAREK" genreId="REG" languageId="polski" distributorId="EMU">
+        <cd>
+            <cdMusician musicianId="KBEDNAREK"/>
             <title>Talizman</title>
             <coverImg src="img/talizman.jpg"/>
+            <cdGenre genreId="REG"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>01.12.2017</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">30.99</price>
+            <cdDistributor distributorId="EMU"/>
         </cd>
-        <cd musicianId="STRACHY" genreId="AROCK" languageId="polski" distributorId="EMU">
+        <cd>
+            <cdMusician musicianId="STRACHY"/>
             <title>Przechodzień o wschodzie</title>
             <coverImg src="img/przechodzien-o-wschodzie.jpg"/>
+            <cdGenre genreId="AROCK"/>
+            <cdLanguage languageId="polski"/>
             <premiereDate>29.09.2017</premiereDate>
             <numberOfCds>1</numberOfCds>
             <price currency="PLN">28.99</price>
+            <cdDistributor distributorId="EMU"/>
         </cd>
     </catalog>
 </document>

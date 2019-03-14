@@ -27,16 +27,25 @@
 
         <!ELEMENT catalog (cd)*>
 
-        <!ELEMENT cd (title, coverImg, premiereDate, numberOfCds, price)>
-        <!ATTLIST cd musicianId IDREF #REQUIRED
-                genreId IDREF #REQUIRED
-                languageId IDREF #REQUIRED
-                distributorId IDREF #REQUIRED>
+        <!ELEMENT cd (cdMusician, title, coverImg, cdGenre, cdLanguage, premiereDate, numberOfCds, price, cdDistributor)>
+        <!ELEMENT cdMusician EMPTY>
+        <!ATTLIST cdMusician musicianId CDATA #REQUIRED>
+
         <!ELEMENT title (#PCDATA)>
         <!ELEMENT coverImg EMPTY>
         <!ATTLIST coverImg src CDATA #REQUIRED>
+
+        <!ELEMENT cdGenre EMPTY>
+        <!ATTLIST cdGenre genreId CDATA #REQUIRED>
+
+        <!ELEMENT cdLanguage EMPTY>
+        <!ATTLIST cdLanguage languageId CDATA #REQUIRED>
+
         <!ELEMENT premiereDate (#PCDATA)>
         <!ELEMENT numberOfCds (#PCDATA)>
 
         <!ELEMENT price (#PCDATA)>
         <!ATTLIST price currency (PLN | USD) #REQUIRED>
+
+        <!ELEMENT cdDistributor EMPTY>
+        <!ATTLIST cdDistributor distributorId CDATA #REQUIRED>

@@ -10,7 +10,7 @@ musicians, genres, languages, distributors {
     display: none;
 }
 
-authors:first-child::before{
+authors:first-child::before {
     content: 'Autorzy: ';
 }
 
@@ -49,7 +49,7 @@ studentId {
 }
 
 description {
-    color: #805736;
+    color: #c0b283;
     font-family: 'Droid serif', serif;
     font-size: 36px;
     font-weight: 400;
@@ -57,109 +57,108 @@ description {
 }
 
 catalog {
+    background-color: #f4f4f4;
     display: block;
     margin: 20px;
     list-style-type: none;
-    width: 500px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 cd {
     display: block;
-    background: gray;
+}
+
+cdMusician{
+    color: #c0b283;
 }
 
 /*print musicians*/
-cd[musicianId="LGAGA"]::before {
+cdMusician[musicianId="LGAGA"]::before {
     content: "Lady Gaga";
 }
 
-cd[musicianId="BCOOPER"]::before {
+cdMusician[musicianId="BCOOPER"]::before {
     content: "Bradley Cooper";
 }
 
-cd[musicianId="QUEEN"]::before {
+cdMusician[musicianId="QUEEN"]::before {
     content: "Queen";
 }
 
-cd[musicianId="CPLAY"]::before {
+cdMusician[musicianId="CPLAY"]::before {
     content: "Coldplay";
 }
 
-cd[musicianId="ARIZONA"]::before {
+cdMusician[musicianId="ARIZONA"]::before {
     content: "A R I Z O N A";
 }
 
-cd[musicianId="BJOVI"]::before {
+cdMusician[musicianId="BJOVI"]::before {
     content: "Bon Jovi";
 }
 
-cd[musicianId="PFLOYD"]::before {
+cdMusician[musicianId="PFLOYD"]::before {
     content: "Pink Floyd";
 }
 
-cd[musicianId="ACDC"]::before {
+cdMusician[musicianId="ACDC"]::before {
     content: "AC/DC";
 }
 
-cd[musicianId="DPODSIADLO"]::before {
+cdMusician[musicianId="DPODSIADLO"]::before {
     content: "Dawid Podsiadło";
 }
 
-cd[musicianId="KORTEZ"]::before {
+cdMusician[musicianId="KORTEZ"]::before {
     content: "Kortez";
 }
 
-cd[musicianId="PROBLEM"]::before {
+cdMusician[musicianId="PROBLEM"]::before {
     content: "PRO8L3M";
 }
 
-cd[musicianId="DZAWIALOW"]::before {
+cdMusician[musicianId="DZAWIALOW"]::before {
     content: "Daria Zawiałow";
 }
 
-cd[musicianId="PDOMAGALA"]::before {
+cdMusician[musicianId="PDOMAGALA"]::before {
     content: "Paweł Domagała";
 }
 
-cd[musicianId="TACO"]::before {
+cdMusician[musicianId="TACO"]::before {
     content: "Taco Hemingway";
 }
 
-cd[musicianId="KINGS"]::before {
+cdMusician[musicianId="KINGS"]::before {
     content: "Kings of Leon";
 }
 
-cd[musicianId="SLAWOMIR"]::before {
+cdMusician[musicianId="SLAWOMIR"]::before {
     content: "Sławomir";
 }
 
-cd[musicianId="WILKI"]::before {
+cdMusician[musicianId="WILKI"]::before {
     content: "Wilki";
 }
 
-cd[musicianId="GITARY"]::before {
+cdMusician[musicianId="GITARY"]::before {
     content: "Elektryczne Gitary";
 }
 
-cd[musicianId="KBEDNAREK"]::before {
+cdMusician[musicianId="KBEDNAREK"]::before {
     content: "Kamil Bednarek";
 }
 
-cd[musicianId="STRACHY"]::before {
+cdMusician[musicianId="STRACHY"]::before {
     content: "Strachy na Lachy";
-}
-
-/*print genre and distributor*/
-cd::after {
-    content: "Gatunek: " attr(genreId) "\a" "Dystrybutor: " attr(distributorId);
-    white-space: pre-wrap;
 }
 
 title {
     display: block;
     font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+    color: #c0b283;
 }
 
 coverImg {
@@ -167,6 +166,7 @@ coverImg {
     float: left;
     width: 30%;
     height: auto;
+    margin-right: 20px;
 }
 
 /*display CD cover*/
@@ -270,8 +270,49 @@ coverImg[src="img/przechodzien-o-wschodzie.jpg"] {
     content: url("img/przechodzien-o-wschodzie.jpg");
 }
 
-premiereDate, numberOfCds, price {
+cdGenre, cdLanguage, premiereDate, numberOfCds, price, cdDistributor {
     display: list-item;
+    color: #373737;
+}
+
+cdGenre[genreId="ROCK"]::before {
+    content: "Gatunek: rock";
+}
+
+cdGenre[genreId="SROCK"]::before {
+    content: "Gatunek: soft rock";
+}
+
+cdGenre[genreId="AROCK"]::before {
+    content: "Gatunek: rock alternatywny";
+}
+
+cdGenre[genreId="PROCK"]::before {
+    content: "Gatunek: rock progresywny";
+}
+
+cdGenre[genreId="HROCK"]::before {
+    content: "Gatunek: hard rock";
+}
+
+cdGenre[genreId="POP"]::before {
+    content: "Gatunek: pop";
+}
+
+cdGenre[genreId="RAP"]::before {
+    content: "Gatunek: rap";
+}
+
+cdGenre[genreId="DPOLO"]::before {
+    content: "Gatunek: disco polo";
+}
+
+cdGenre[genreId="REG"]::before {
+    content: "Gatunek: reggae";
+}
+
+cdLanguage::before {
+    content: "Język: " attr(languageId);
 }
 
 premiereDate::before {
@@ -282,14 +323,6 @@ numberOfCds::before {
     content: "Liczba płyt: ";
 }
 
-genre::before {
-    content: "Gatunek: ";
-}
-
-language::before {
-    content: "Język: ";
-}
-
 price::before {
     content: "Cena: ";
 }
@@ -298,9 +331,46 @@ price::after {
     content: " " attr(currency);
 }
 
+cdDistributor[distributorId="UMP"]::before {
+    content: "Dystrybutor: Universal Music Polska";
+}
+
+cdDistributor[distributorId="WMP"]::before {
+    content: "Dystrybutor: Warner Music Poland";
+}
+
+cdDistributor[distributorId="AR"]::before {
+    content: "Dystrybutor: Atlantic Records";
+}
+
+cdDistributor[distributorId="SME"]::before {
+    content: "Dystrybutor: Sony Music Entertainment";
+}
+
+cdDistributor[distributorId="FKO"]::before {
+    content: "Dystrybutor: Firma Księgarska Olesiejuk";
+}
+
+cdDistributor[distributorId="AGO"]::before {
+    content: "Dystrybutor: Agora S.A.";
+}
+
+cdDistributor[distributorId="MYS"]::before {
+    content: "Dystrybutor: Mystic Production";
+}
+
+cdDistributor[distributorId="ASF"]::before {
+    content: "Dystrybutor: Asfalt Distro";
+}
+
+cdDistributor[distributorId="EMU"]::before {
+    content: "Dystrybutor: e-Muzyka";
+}
+
 cd {
     padding: 10px;
     overflow: auto;
+    font: 18px Verdana;
 }
 
 cd:hover {
