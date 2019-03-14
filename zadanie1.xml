@@ -20,13 +20,6 @@
     </header>
 
     <musicians>
-        <musician musicianId="LGAGA">
-            <name>Lady Gaga</name>
-        </musician>
-        <musician musicianId="BCOOPER">
-            <name>Bradley</name>
-            <surname>Cooper</surname>
-        </musician>
         <musician musicianId="QUEEN">
             <name>Queen</name>
         </musician>
