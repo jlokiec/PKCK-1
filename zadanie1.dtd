@@ -1,5 +1,5 @@
 <!ELEMENT document (header, musicians, genres, languages, distributors, catalog)>
-        <!ELEMENT header (authors, description, modificationDate)>
+        <!ELEMENT header (authors, modificationDate, description)>
         <!ELEMENT authors (author)+>
         <!ELEMENT author (name, surname, studentId)>
         <!ELEMENT name (#PCDATA)>
@@ -29,17 +29,17 @@
 
         <!ELEMENT cd (cdMusician, title, coverImg, cdGenre, cdLanguage, premiereDate, numberOfCds, price, cdDistributor)>
         <!ELEMENT cdMusician EMPTY>
-        <!ATTLIST cdMusician musicianId CDATA #REQUIRED>
+        <!ATTLIST cdMusician musicianId IDREF #REQUIRED>
 
         <!ELEMENT title (#PCDATA)>
         <!ELEMENT coverImg EMPTY>
         <!ATTLIST coverImg src CDATA #REQUIRED>
 
         <!ELEMENT cdGenre EMPTY>
-        <!ATTLIST cdGenre genreId CDATA #REQUIRED>
+        <!ATTLIST cdGenre genreId IDREF #REQUIRED>
 
         <!ELEMENT cdLanguage EMPTY>
-        <!ATTLIST cdLanguage languageId CDATA #REQUIRED>
+        <!ATTLIST cdLanguage languageId IDREF #REQUIRED>
 
         <!ELEMENT premiereDate (#PCDATA)>
         <!ELEMENT numberOfCds (#PCDATA)>
@@ -48,4 +48,4 @@
         <!ATTLIST price currency (PLN | USD) #REQUIRED>
 
         <!ELEMENT cdDistributor EMPTY>
-        <!ATTLIST cdDistributor distributorId CDATA #REQUIRED>
+        <!ATTLIST cdDistributor distributorId IDREF #REQUIRED>
